@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>MonkeyWeb contact</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+    
+        <ul class="menu__box">
+          <li><a class="menu__item" href="mon site.html">Acueil</a></li>
+          <li><a class="menu__item" href="https://www.20minutes.fr/dossier/singe">Actualite</a></li>
+          <li><a class="menu__item" href="SHOP.html">SHOP</a></li>
+          <li><a class="menu__item" href="formulaire.html">Contact</a></li>
+          <li><a class="menu__item" href="https://soundcloud.com/gioruno-giovana">Soundcloud</a></li>
+          <li><a class="menu__item" href="https://www.instagram.com/bedhoveen/?hl=fr">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="grandtexte">
+<h1>Nous contacter</h1>
+      </div>
+<form action="formulaire.html">
+    <div class="info">
+    <fieldset>
+        <legend>Informations</legend>
+        <div>
+        <label for="emailinput">Ton email</label>
+        <input type="text" name="email" id="emailinput" placeholder="singecalme@gmail.com" required>
+        </div>
+        <div>
+          <label for="nameinput">Ton blaze</label>
+          <input type="text" name="firstname" id="nameinput" required>
+        </div>
+        <label>Genre</label>
+        <div class="choix">
+          <input type="radio" name="genre" id="masculin">
+          <label for="masculin">Masculin</label>
+          <input type="radio" name="genre" id="feminin">
+          <label for="feminin">Feminin</label>
+          <input type="radio" name="genre" id="autre">
+          <label for="autre">Autre</label>
+        </div>
+        <label>Age</label>
+        <div>
+          <input type="date" name="age">
+        </div>
+        <div class="message">
+        <label for="message">Ton Message</label>
+        <textarea name="message" id="message" cols="80" rows="1" placeholder="tu peux écrire ici"></textarea>
+        </div>
+        <input type="submit" value="Envoyer l'email">
+    </fieldset>
+  </div>
+</form>
+
+
+</body>
+</html>
